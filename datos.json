@@ -5,7 +5,7 @@
     {"id": 3, "nombre": "Ferretería Ejemplo", "zona": "Laferrere", "rubro": "Ferretería", "whatsapp": "5491100000003"}
   ],
   "ofertas": [
-    {"comercio_id": 1, "titulo": "2x1 en facturas", "desde": "2026-10-01", "hasta": "2026-11-30", "destacada": true},
+    {"comercio_id": 1, "titulo": "3x2 en facturas", "desde": "2026-10-01", "hasta": "2026-11-30", "destacada": true},
     {"comercio_id": 2, "titulo": "Cajón de frutas a precio especial", "desde": "2026-10-01", "hasta": "2026-11-30", "destacada": false},
     {"comercio_id": 3, "titulo": "10% en herramientas de mano", "desde": "2026-10-01", "hasta": "2026-11-30", "destacada": false}
   ],
