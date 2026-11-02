@@ -1,20 +1,22 @@
 {
-  "zonas": ["Ciudad Evita", "González Catán", "Laferrere", "San Justo"],
+  "ciudad": "González Catán",
+  "rubros": ["Panadería", "Carnicería", "Verdulería", "Ferretería", "Librería"],
   "comercios": [
-    {"id": 1, "nombre": "Panadería Ejemplo", "zona": "González Catán", "rubro": "Panadería", "whatsapp": "5491100000001"},
-    {"id": 2, "nombre": "Verdulería Ejemplo", "zona": "Ciudad Evita", "rubro": "Verdulería", "whatsapp": "5491100000002"},
-    {"id": 3, "nombre": "Ferretería Ejemplo", "zona": "Laferrere", "rubro": "Ferretería", "whatsapp": "5491100000003"},
-    {"id": 4, "nombre": "Librería Ejemplo", "zona": "San Justo", "rubro": "Librería", "whatsapp": "5491100000004"}
+    {"id": 1, "nombre": "Panadería Cayetano", "rubro": "Panadería", "whatsapp": "5491100000001"},
+    {"id": 2, "nombre": "Carnicería Vaca Loca", "rubro": "Carnicería", "whatsapp": "5491100000002"},
+    {"id": 3, "nombre": "Verdulería Ejemplo", "rubro": "Verdulería", "whatsapp": "5491100000003"},
+    {"id": 4, "nombre": "Ferretería Ejemplo", "rubro": "Ferretería", "whatsapp": "5491100000004"},
+    {"id": 5, "nombre": "Librería Ejemplo", "rubro": "Librería", "whatsapp": "5491100000005"}
   ],
   "ofertas": [
-    {"comercio_id": 1, "titulo": "3x2 en facturas", "desde": "2026-10-01", "hasta": "2026-11-30", "destacada": true},
-    {"comercio_id": 2, "titulo": "Cajón de frutas a precio especial", "desde": "2026-10-01", "hasta": "2026-11-30", "destacada": false},
-    {"comercio_id": 3, "titulo": "10% en herramientas de mano", "desde": "2026-10-01", "hasta": "2026-11-30", "destacada": false},
-    {"comercio_id": 4, "titulo": "Útiles escolares con descuento", "desde": "2026-10-01", "hasta": "2026-11-30", "destacada": false}
+    {"comercio_id": 1, "titulo": "3x2 en facturas", "desde": "2026-10-01", "hasta": "2026-12-31", "destacada": true},
+    {"comercio_id": 2, "titulo": "Asado especial a precio de promo", "desde": "2026-10-01", "hasta": "2026-12-31", "destacada": false},
+    {"comercio_id": 3, "titulo": "Cajón de frutas a precio especial", "desde": "2026-10-01", "hasta": "2026-12-31", "destacada": false},
+    {"comercio_id": 4, "titulo": "10% en herramientas de mano", "desde": "2026-10-01", "hasta": "2026-12-31", "destacada": false},
+    {"comercio_id": 5, "titulo": "Útiles escolares con descuento", "desde": "2026-10-01", "hasta": "2026-12-31", "destacada": false}
   ],
   "ferias": [
-    {"id": 101, "nombre": "Feria de ejemplo", "zona": "Ciudad Evita", "dias": ["sábado", "domingo"], "lugar": "Calle y altura a confirmar"},
-    {"id": 102, "nombre": "Feria barrial de ejemplo", "zona": "González Catán", "dias": ["miércoles"], "lugar": "Plaza a confirmar"},
-    {"id": 103, "nombre": "Feria de San Justo de ejemplo", "zona": "San Justo", "dias": ["domingo"], "lugar": "Calle y altura a confirmar"}
+    {"id": 101, "nombre": "Feria de ejemplo", "dias": ["sábado", "domingo"], "lugar": "Calle y altura a confirmar"},
+    {"id": 102, "nombre": "Feria barrial de ejemplo", "dias": ["miércoles"], "lugar": "Plaza a confirmar"}
   ]
 }
